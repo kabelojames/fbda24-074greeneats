@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenEats | Organic Food Delivery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="images/logo.svg" alt="GreenEats Logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="products.html">All Products</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="cart">
+        <span id="cart-count">0</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Fresh Organic Food Delivered to Your Door</h1>
+    <a href="shop.html" class="btn">Shop Now</a>
+  </section>
+
+  <section class="featured">
+    <div class="container">
+      <h2>Featured Products</h2>
+      <div class="products">
+        <div class="product-card">
+          <div class="product-img">
+            <img src="images/products/apples.jpg" alt="Organic Apples">
+          </div>
+          <div class="product-info">
+            <h3>Organic Apples</h3>
+            <p>Crisp and juicy, straight from the orchard</p>
+            <div class="price">P4.99/park</div>
+            <button class="btn add-to-cart" data-id="1">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-img">
+            <img src="images/products/berries.jpg" alt="Organic Berries">
+          </div>
+          <div class="product-info">
+            <h3>Organic Mixed Berries</h3>
+            <p>Sweet and antioxidant-rich berry mix</p>
+            <div class="price">P6.99/pack</div>
+            <button class="btn add-to-cart" data-id="2">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="blog-preview">
+    <div class="container">
+      <h2>Latest Articles</h2>
+      <div class="articles">
+        <article>
+          <h3>5 Benefits of Organic Farming</h3>
+          <p>Discover how organic methods help the environment...</p>
+          <a href="blog.html" class="btn">Read More</a>
+        </article>
+        <article>
+          <h3>Seasonal Eating Guide</h3>
+          <p>What's in season this month and why it matters...</p>
+          <a href="blog.html" class="btn">Read More</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="newsletter">
+        <input type="email" placeholder="Enter your email">
+        <button class="btn">Subscribe</button>
+      </div>
+      <div class="social">
+        <a href="#"><img src="images/facebook.svg" alt="Facebook"></a>
+        <a href="#"><img src="images/instagram.svg" alt="Instagram"></a>
+        <a href="#"><img src="images/twitter.svg" alt="Twitter"></a>
+      </div>
+      <p>&copy; 2025 GreenEats. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
